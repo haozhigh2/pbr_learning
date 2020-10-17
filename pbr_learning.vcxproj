@@ -143,9 +143,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\math\Point.h" />
     <ClInclude Include="src\math\Vector.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\math\Point.cpp" />
     <ClCompile Include="src\math\Vector.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

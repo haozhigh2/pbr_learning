@@ -24,9 +24,15 @@
     <ClInclude Include="src\math\Vector.h">
       <Filter>Header Files\math</Filter>
     </ClInclude>
+    <ClInclude Include="src\math\Point.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\math\Vector.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\Point.cpp">
       <Filter>Source Files\math</Filter>
     </ClCompile>
   </ItemGroup>
